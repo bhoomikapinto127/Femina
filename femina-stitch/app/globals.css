@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1E2255;
+  --color-accent: #C72C54;
+  --color-cream: #FCF8F7;
+  --color-surface: #EFF1F9;
+  --color-ink: #1C1F2E;
+  --color-line: #E8E2E0;
+}
+
+@theme inline {
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-serif: var(--font-playfair), Georgia, serif;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+}
